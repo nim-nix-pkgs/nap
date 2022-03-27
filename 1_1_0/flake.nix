@@ -11,6 +11,7 @@
   inputs.src-nap-1_1_0.ref   = "refs/tags/1.1.0";
   inputs.src-nap-1_1_0.owner = "madprops";
   inputs.src-nap-1_1_0.repo  = "nap";
+  inputs.src-nap-1_1_0.dir   = "";
   inputs.src-nap-1_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
